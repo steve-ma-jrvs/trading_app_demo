@@ -5,7 +5,7 @@ pipeline {
     }
 
     environment {
-        app_name = 'trading_app'
+        app_name = 'trading-app'
     }
 
     stages {
@@ -20,14 +20,14 @@ pipeline {
             when { branch 'development' }
             steps {
                 echo "Current Branch is: ${env.GIT_BRANCH}"
-                sh "bash ./scripts/eb_deploy.sh trading_app TradingApp-env"
+                sh "bash ./scripts/eb_deploy.sh trading-app TradingApp-env"
             }
         }
         stage('Deploy_prod') {
             when { branch 'master' }
             steps {
                 echo "Current Branch is: ${env.GIT_BRANCH}"
-                sh "./scripts/eb_deploy.sh trading_app TradingApp-prod"
+                sh "./scripts/eb_deploy.sh trading-app TradingApp-prod"
             }
         }
     }
