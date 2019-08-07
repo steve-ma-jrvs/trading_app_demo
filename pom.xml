@@ -84,7 +84,7 @@
                       </execution>
                     </executions>
                   </plugin>-->
-      <plugin>
+      <!-- <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
           <descriptors>src/assembly/demo.xml</descriptors>
@@ -99,8 +99,8 @@
           </execution>
         </executions>
         <groupId>org.apache.maven.plugins</groupId>
-      </plugin>
-      <!--      <plugin>
+      </plugin> -->
+          <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-assembly-plugin</artifactId>
               <configuration>
@@ -115,7 +115,7 @@
                   </goals>
                 </execution>
               </executions>
-            </plugin>-->
+            </plugin>
     </plugins>
   </build>
 

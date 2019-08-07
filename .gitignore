@@ -5,3 +5,7 @@ target/
 .*
 !.gitignore
 trading_app.code-workspace
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
