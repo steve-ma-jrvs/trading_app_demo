@@ -1,5 +1,6 @@
 # `trading_app` Demo project
 
+abcde
 This project only keeps the red component in the diagram below for demo and cloud deployment learning purpose.
 
 ![5A13915F-507C-4510-B803-58B608025AEF](assets/5A13915F-507C-4510-B803-58B608025AEF.png)
